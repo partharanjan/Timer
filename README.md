@@ -1,7 +1,8 @@
 How To Use
 =====
 
-```var target_date=new Date(2014,0,21,16,0,0);
+```
+var target_date=new Date(2014,0,21,16,0,0);
 var timer=new Timer(target_date);
 timer.tick=function(count_down_object,status)
 {
@@ -18,4 +19,5 @@ timer.tick=function(count_down_object,status)
 		$("#timer_content").html("00:00:00:00");
 	}
 };
-timer.start();```
+timer.start();
+```
